@@ -1,9 +1,12 @@
 .footer {
-  margin: 40px;
+  padding: 20px;
+  margin-top: 40px;
   text-align: center;
   font-size: 0.9rem;
-  color: #777;
+  color: white;
+  background-color: rgb(33, 33, 33);
 }
+
 .footer div {
   margin-bottom: 10px;
   font-weight: bold;
