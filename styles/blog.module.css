@@ -43,6 +43,9 @@
 .post {
   margin: 0 auto 40px;
 }
+.postLeft_DTTE {
+  margin-left: 100px;
+}
 .post :global(h3) {
   margin: 0;
   color: var(--fg);

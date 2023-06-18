@@ -75,10 +75,12 @@ const BlogPage = async () => {
           {posts.map(post => {
             return (
               <div className={styles.post} key={post.Slug}>
-                <PostDate post={post} />
-                <PostTags post={post} />
-                <PostTitle post={post} />
-                <PostExcerpt post={post} />
+                <div className={styles.postLeft_DTTE}>
+                  <PostDate post={post} />
+                  <PostTags post={post} />
+                  <PostTitle post={post} />
+                  <PostExcerpt post={post} />
+                </div>
                 <ReadMoreLink post={post} />
               </div>
             )
