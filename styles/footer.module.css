@@ -1,11 +1,10 @@
 .footer {
-  margin: 40px 0 10px;
+  margin: 40px;
   text-align: center;
-  font-size: 0.75rem;
-}
-.footer span {
+  font-size: 0.9rem;
   color: #777;
 }
-.footer span a {
-  color: inherit;
+.footer div {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
