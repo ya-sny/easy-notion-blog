@@ -1,12 +1,10 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import {
   NEXT_PUBLIC_URL,
   NEXT_PUBLIC_SITE_TITLE,
   NEXT_PUBLIC_SITE_DESCRIPTION
 } from './server-constants'
 import GoogleAnalytics from '../components/google-analytics'
-import styles from '../styles/page.module.css'
 
 export async function generateMetadata(): Promise<Metadata> {
   const title = NEXT_PUBLIC_SITE_TITLE
