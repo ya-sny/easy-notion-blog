@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   gap: 6px;
 }
+
 .postTags a {
   display: flex;
   align-items: center;
@@ -25,15 +26,18 @@
   font-size: 2.0rem;
   color: var(--fg);
 }
+
 @media (max-width: 640px) {
   .postTitle {
     font-size: 1.2rem;
   }
 }
+
 .postTitle a {
   font-size: 1.2rem;
   color: inherit;
 }
+
 @media (max-width: 640px) {
   .postTitle a {
     font-size: 1.15rem;
@@ -52,6 +56,7 @@
 .readMoreLink {
   color: var(--fg);
 }
+
 .readMoreLink a {
   display: block;
   width: 30%;
@@ -62,6 +67,7 @@
   text-align: center;
   line-height: 3rem;
 }
+
 @media (max-width: 640px) {
   .readMoreLink a {
     width: 50%;
@@ -71,6 +77,7 @@
 .nextPageLink {
   color: var(--fg);
 }
+
 .nextPageLink a {
   display: block;
   width: 30%;
@@ -81,27 +88,29 @@
   text-align: center;
   line-height: 3rem;
 }
+
 @media (max-width: 640px) {
   .nextPageLink a {
     width: 50%;
   }
 }
 
-.noContents {
-}
+.noContents {}
 
-.blogPostLink {
-}
+.blogPostLink {}
+
 .blogPostLink h3 {
   margin: 0;
   font-size: 1.1rem;
 }
+
 .blogPostLink ul {
   list-style-type: none;
   padding: 0;
   margin-top: 0.3rem;
   margin-block-end: 1rem;
 }
+
 .blogPostLink ul li {
   position: relative;
   font-size: 0.95rem;
@@ -109,6 +118,7 @@
   padding-left: 0.7rem;
   line-height: 1.2rem;
 }
+
 .blogPostLink ul li:before {
   border-radius: 50%;
   width: 5px;
@@ -121,27 +131,31 @@
   background: #333;
 }
 
-.blogTagLink {
-}
+.blogTagLink {}
+
 .blogTagLink h3 {
   margin: 0;
   font-size: 1.1rem;
 }
+
 .blogTagLink ul {
   list-style-type: none;
   padding: 0;
   margin-top: 0.3rem;
   margin-block-end: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .blogTagLink ul li {
   position: relative;
   font-size: 1rem;
   padding: 0.4rem 0;
-  line-height: 1.2rem;
-
+  line-height: 1rem;
   font-size: 0.9rem;
-  gap: 6px;
+  margin-right: 6px;
 }
+
 .blogTagLink ul li a {
   min-width: 0;
   border-radius: 3px;
@@ -151,8 +165,16 @@
   background: rgba(227, 226, 224, 0.5);
 }
 
-.postsNotFound {
+@media (max-width: 640px) {
+  .blogPostLink {
+    margin-left: 1rem;
+  }
+  .blogTagLink {
+    margin-left: 1rem;
+  }
 }
+
+.postsNotFound {}
 
 @media (max-width: 640px) {
   .tag {
@@ -171,6 +193,7 @@
   .nextContainer {
     padding: 0;
   }
+
   .nextContainer a.nextButton {
     width: 50%;
   }

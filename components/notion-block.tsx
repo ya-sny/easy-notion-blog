@@ -13,7 +13,7 @@ import styles from '../styles/notion-block.module.css'
 import '../styles/notion-color.css'
 
 const RichText = ({ richText }) => {
-  let element
+  let element = null;
   if (richText.Text) {
     element = richText.Text.Content.split('\n').reduce((acc: string, content: string, i: number) => {
       if (i === 0) {

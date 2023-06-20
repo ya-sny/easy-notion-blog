@@ -7,9 +7,8 @@
     display: block;
   }
 }
-
 .mainContent {
-  width: 65%;
+  width: 75%;
 }
 @media (max-width: 640px) {
   .mainContent {
@@ -32,7 +31,7 @@
 }
 
 .subContent {
-  width: 30%;
+  width: 20%;
 }
 @media (max-width: 640px) {
   .subContent {
@@ -42,9 +41,6 @@
 
 .post {
   margin: 0 auto 40px;
-}
-.postLeft_DTTE {
-  margin-left: 100px;
 }
 .post :global(h3) {
   margin: 0;
@@ -116,4 +112,10 @@
 .post footer {
   padding: 0;
   border: 0;
+}
+
+.postLeft_DTTE {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
