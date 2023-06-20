@@ -29,7 +29,7 @@ import {
 import styles from '../../../../../../styles/blog.module.css'
 import '../../../../../../styles/notion-color.css'
 
-export const revalidate = 3600
+export const revalidate = 60
 
 export async function generateMetadata({ params: { date: encodedDate, tag: encodedTag } }): Promise<Metadata> {
   const date = decodeURIComponent(encodedDate)

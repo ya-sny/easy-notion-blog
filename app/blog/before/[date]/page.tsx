@@ -26,7 +26,7 @@ import {
 } from '../../../../components/blog-parts'
 import styles from '../../../../styles/blog.module.css'
 
-export const revalidate = 3600
+export const revalidate = 60
 
 export async function generateMetadata({ params: { date: encodedDate } }): Promise<Metadata> {
   const date = decodeURIComponent(encodedDate)
