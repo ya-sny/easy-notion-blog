@@ -1,7 +1,11 @@
 .container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding: 0 5%;
+  min-height: 100vh;
 }
 
 .content {
+  flex: 1;
+  margin: 0 3rem;
 }
