@@ -12,7 +12,7 @@ import {
   NextPageLink,
   NoContents,
   PostDate,
-  PostExcerpt,
+  // PostExcerpt,
   PostTags,
   PostTitle,
   ReadMoreLink,
