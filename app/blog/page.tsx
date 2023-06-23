@@ -79,7 +79,7 @@ const BlogPage = async () => {
                   <PostDate post={post} />
                   <PostTags post={post} />
                   <PostTitle post={post} />
-                  <PostExcerpt post={post} />
+                  {/*<PostExcerpt post={post} />*/}
                 </div>
                 <ReadMoreLink post={post} />
               </div>
